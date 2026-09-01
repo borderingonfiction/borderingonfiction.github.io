@@ -39,7 +39,8 @@ button {
 
 /* header/navbar */
 
-.menu-bar-full a {
+.menu-bar-full ul {
+    margin:0
 
 }
 
