@@ -1,16 +1,100 @@
-body {
 
+<!-- elements -->
+
+body {
+    background-color: #000;
+    color: #fff;
+    width: 95%;
+    font-family: 'Karla', sans-serif; 
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+    padding: 0%;
+    margin: 0%;
+    width: fit-content;
+    font-family: 'Cormorant Garamond', serif;
+}
 
+p {
+    font-family: 'Karla', sans-serif; 
 }
 
 a {
-
+    font-family: 'Karla', sans-serif; 
 }
+
+img, figure {
+    padding: none;
+    margin: 0%;
+}
+
+<-- -->
+
+
+<!-- header/navbar --> 
 
 .menu-bar-full a {
 
 }
 
+
+nav ul li {
+    list-style: none;
+}
+
+
+<-- -->
+
+<-- alignment -->
+.left {
+    justify-content: left;
+}
+
+.right{ 
+    justify-content: right;
+}
+
+.center {
+    justify-content: center;
+}
+
+<!-- FLEX COLUMN CONFIGURATION --> 
+.column {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.one-column {
+    
+}
+
+.two-column {
+    
+}
+
+.three-column {
+
+}
+
+.four-column {
+
+}
+
+<-- -->
+
+<!-- PREVIEW CONFIGURATION -->
+
+.sketchbook-preview {
+    align-content: left;
+}
+
+.notebook-preview {
+    align-content: left;
+
+}
+
+<-- -->
