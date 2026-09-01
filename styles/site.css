@@ -10,6 +10,11 @@ body {
     margin-right: auto;
 }
 
+
+header {
+    display: flex;
+}
+
 div {
     width: fit-content;
 }
@@ -42,7 +47,8 @@ button {
     color: #fff;
     font-size: medium;
     font-weight: bold;
-    align-self:flex-start;
+    align-self:start;
+    width: fit-content;
 }
 
 
@@ -50,11 +56,6 @@ button {
 
 /* header/navbar */
 
-header {
-    display: flex;
-    margin: auto;
-    width: 100%;
-}
 
 .main-menu-full ul {
     margin:0;
