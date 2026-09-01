@@ -8,6 +8,7 @@ body {
     max-width: 95%;
     margin-left: auto;
     margin-right: auto;
+    padding:0;
 }
 
 
@@ -51,6 +52,7 @@ button {
     font-weight: bold;
     align-self:start;
     width: fit-content;
+    margin:0;
 }
 
 
@@ -66,23 +68,37 @@ button {
 .main-menu-full {
     display: flex;
     flex-direction: column;
-    align-self: right;
+    width:100%;
 }
 
 
 nav ul li {
     list-style: none;
     font-family: 'Cormorant Garamond', serif;
+}
+
+nav a {
     color: #a8a8a8;
+    font-style: normal;
+    font-size: 1.2em;
 }
 
 .nav-columns {
+    width: 15%;
     display: flex;
     flex-direction: row;
-    justify-self: end;
+    justify-content: end;
 }
 
+.home {
+    flex: 85%;
+}
 
+.home h1 {
+    color: #b90000;
+    font-style:normal;
+    font-size:1.2em;
+}
 
 /* alignment */
 
