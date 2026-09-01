@@ -4,7 +4,7 @@
 
 $(document).ready(function() {
     $( '#navMenuButton' ).on('click', function() {
-        $('#navMenu').slideToggle();
+        $('#navMenu').slideToggle(),
         $('#navMenuButton').css('transform', 'rotate(180deg)');   
         });
     });
