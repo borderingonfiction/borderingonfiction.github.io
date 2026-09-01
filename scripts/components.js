@@ -1,3 +1,5 @@
+import {useState} from 'react';
+
 export function renderNav () {
     return (
          <ul class="main-menu-full">
@@ -15,6 +17,18 @@ export function renderNav () {
 
 }
 
-function navMenu( {
-    
+
+const [visibility, navClick] = useState('hidden')
+const navMode = () => {
+    navClick((state) => (state=== 'visible' ? 'hidden' : 'visible'));
 }
+
+function toggleNav () {
+    navClick('visible');
+}
+
+return (
+    <button onClick={navClick}>
+        &#8593
+    </button>
+)
