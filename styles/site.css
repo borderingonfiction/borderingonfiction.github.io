@@ -21,9 +21,7 @@ p {
     font-family: 'Karla', sans-serif; 
 }
 
-a {
-    font-family: 'Karla', sans-serif; 
-}
+
 
 img, figure {
     padding: none;
@@ -39,12 +37,11 @@ button {
 
 /* header/navbar */
 
-.menu-bar-full ul {
-    margin:0
-
+.main-menu-full ul {
+    margin:0;
 }
 
-.menu-bar-full {
+.main-menu-full {
     display: flex;
     flex-direction: column;
 }
