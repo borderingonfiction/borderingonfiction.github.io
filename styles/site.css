@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Karla', sans-serif; 
+    color: #000;
 }
 
 div {
@@ -72,16 +73,27 @@ nav ul li {
     width: 95%;
 }
 
+.two-column {
+    display: flex;
+    flex: 50%;
+}
+
+.three-column {
+    display: flex;
+    flex: 33%;  
+}
 
 
 /* previews */
 
 .sketchbook-preview {
     align-content: left;
+    width: fit-content;
 }
 
 .notebook-preview {
     align-content: left;
+    width: fit-content;
 
 }
 
