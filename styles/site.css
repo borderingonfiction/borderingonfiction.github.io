@@ -39,6 +39,8 @@ button {
     border: none;
     background-color:rgba(0, 0, 0, 0);
     color: #fff;
+    font-size: medium;
+    font-weight: bold;
 }
 
 
@@ -48,6 +50,8 @@ button {
 
 .header {
     display: flex;
+    margin: auto;
+    width: 100%;
 }
 
 .main-menu-full ul {
