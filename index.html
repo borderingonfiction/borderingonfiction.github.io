@@ -18,14 +18,35 @@
 
 <body>
 
+    <script src="jquery.js"></script>
+    <script src="scripts/index.js"></script>
+    
+
     <header>
 
         <div class="center"><h1>a trip to the moon</h1></div>
         <div class="right">
-        <nav id="navMenu">
+        <nav class="nav-columns">
+            <div class="two-column">
             <button id="navMenuButton"> 
                 &#8593
             </button>
+            </div>
+            
+            <div class="two-column main-menu-full">
+                <ul id="indexLine">
+                    <li><a href="/index.html">home</a></li>
+                </ul>
+                <ul id="navMenu">    
+                    <li><a href="/sketchbooks.html">sketchbooks</a></li>
+                    <li><a href="/notebook.html">journal</a></li>
+                    <li><a href="/photos.html">photographs</a></li>
+
+                    <li><a href="/about.html">about me</a></li>
+                    <li><a href="/log.html">update log</a></li>
+                    <li><a href="/collecting.html">digital soup</a></li>
+                </ul>
+            </div>
         </nav>
         </div>
     </header>
