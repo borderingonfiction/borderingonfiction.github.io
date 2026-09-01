@@ -2,11 +2,11 @@
 
 // nav bar toggling etc
 
-$( '#navMenuButton' ).click(toggleNav); {
+$( '#navMenuButton' ).click(toggleNav()); {
 }
 
-function toggleNav(event) {
-    $('#navMenu').toggle();
+function toggleNav() {
+    $('#navMenu').slideToggle();
     $('#navMenuButton').animate({
         rotate: "+180deg"
     })
