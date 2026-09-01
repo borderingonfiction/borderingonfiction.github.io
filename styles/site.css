@@ -1,12 +1,11 @@
 
-<!-- elements -->
+/* elements */
 
 body {
-    background-color: #000;
-    color: #fff;
-    width: 95%;
     font-family: 'Karla', sans-serif; 
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
     padding: 0%;
@@ -28,10 +27,10 @@ img, figure {
     margin: 0%;
 }
 
-<-- -->
 
 
-<!-- header/navbar --> 
+
+/* header/navbar */
 
 .menu-bar-full a {
 
@@ -44,9 +43,9 @@ nav ul li {
 }
 
 
-<-- -->
 
-<-- alignment -->
+/* alignment */
+
 .left {
     justify-content: left;
 }
@@ -59,35 +58,17 @@ nav ul li {
     justify-content: center;
 }
 
-<!-- FLEX COLUMN CONFIGURATION --> 
-.column {
+/* structuring */
+
+.section {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
-    display: flex;
-    flex-direction: row;
 }
 
 
-.one-column {
-    
-}
 
-.two-column {
-    
-}
-
-.three-column {
-
-}
-
-.four-column {
-
-}
-
-<-- -->
-
-<!-- PREVIEW CONFIGURATION -->
+/* previews */
 
 .sketchbook-preview {
     align-content: left;
@@ -98,4 +79,3 @@ nav ul li {
 
 }
 
-<-- -->
