@@ -103,7 +103,6 @@ nav ul li {
 .sketchbook-preview {
     display: flex;
     align-content: left;
-    width: fit-content;
 }
 
 .notebook-preview {
@@ -114,6 +113,16 @@ nav ul li {
 
 }
 
+/* images i guess */
+.sketch-preview {
+    max-width: 100%;
+    width: fit-content;
+}
+
+.gallery {
+    display: flex;
+    max-width: 95%;
+}
 
 /* hidden */
 .hidden {
