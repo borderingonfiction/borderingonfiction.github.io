@@ -2,6 +2,8 @@
 
 // nav bar toggling etc
 
+$( '#navMenuButton' ).click(toggleNav); {
+}
 
 function toggleNav(event) {
     $('#navMenu').toggle();
@@ -10,5 +12,4 @@ function toggleNav(event) {
     })
 }
 
-$( '#navMenuButton' ).click(toggleNav); {
-}
+
