@@ -42,6 +42,7 @@ button {
     color: #fff;
     font-size: medium;
     font-weight: bold;
+    align-self:flex-start;
 }
 
 
@@ -49,7 +50,7 @@ button {
 
 /* header/navbar */
 
-.header {
+header {
     display: flex;
     margin: auto;
     width: 100%;
