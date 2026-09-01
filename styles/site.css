@@ -105,11 +105,18 @@ nav ul li {
 }
 
 
-/* previews */
+/* books */
 
 .sketchbook-preview {
     display: flex;
-    align-content: left;
+    flex-direction: row;
+    align-content: center;
+}
+
+.sketchbook-entry {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .notebook-preview {
@@ -120,9 +127,6 @@ nav ul li {
 
 }
 
-.sketchbook-title {
-    flex: auto;
-}
 
 /* images i guess */
 .sketch-preview {
@@ -130,10 +134,6 @@ nav ul li {
     width: fit-content;
 }
 
-.gallery {
-    display: flex;
-    max-width: 95%;
-}
 
 /* hidden */
 .hidden {
