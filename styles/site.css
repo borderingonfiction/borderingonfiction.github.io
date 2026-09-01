@@ -151,6 +151,7 @@ nav a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
 }
 
 .sketchbook-entry {
@@ -188,6 +189,8 @@ nav a {
 
 .sketchbook-title h4 {
     color: #a8a8a8;
+    text-align: end;
+    width: 100%;
 }
 
 
