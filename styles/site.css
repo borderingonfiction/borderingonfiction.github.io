@@ -11,7 +11,7 @@ div {
     width: fit-content;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a {
     padding: 0%;
     margin: 0%;
     width: fit-content;
@@ -23,7 +23,6 @@ p {
 }
 
 
-
 img, figure {
     padding: none;
     margin: 0%;
@@ -31,12 +30,18 @@ img, figure {
 
 button {
     border: none;
+    background-color:rgba(0, 0, 0, 0);
+    align-self: start;
 }
 
 
 
 
 /* header/navbar */
+
+.header {
+    display: flex;
+}
 
 .main-menu-full ul {
     margin:0;
