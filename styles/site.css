@@ -31,10 +31,12 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a {
 
 p {
     font-family: 'Karla', sans-serif; 
+    margin:0;
+    padding:0;
 }
 
 a {
-    font-style: normal;
+    text-decoration: none ;
 }
 
 
@@ -47,7 +49,7 @@ img, figure {
 button {
     border: none;
     background-color:rgba(0, 0, 0, 0);
-    color: #fff;
+    color: #a8a8a8;
     font-size: medium;
     font-weight: bold;
     align-self:start;
@@ -63,6 +65,7 @@ button {
 
 .main-menu-full ul {
     margin:0;
+    padding: 0;
 }
 
 .main-menu-full {
@@ -79,7 +82,7 @@ nav ul li {
 
 nav a {
     color: #a8a8a8;
-    font-style: normal;
+    text-decoration: underline;
     font-size: 1.2em;
 }
 
@@ -97,8 +100,13 @@ nav a {
 .home h1 {
     color: #b90000;
     font-style:normal;
-    font-size:1.2em;
+    font-size:2.5em;
 }
+
+.home h3 {
+    color: #a8a8a8;
+}
+
 
 /* alignment */
 
@@ -122,16 +130,17 @@ nav a {
 .section {
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
 }
 
 .two-column {
     display: flex;
+    flex-direction:row;
     flex: 50%;
 }
 
 .three-column {
     display: flex;
+    flex-direction:row;
     flex: 33%;  
 }
 
@@ -141,13 +150,22 @@ nav a {
 .sketchbook-preview {
     display: flex;
     flex-direction: row;
-    flex: 1 1;
+    justify-content: center;
 }
 
 .sketchbook-entry {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
+    align-items: start;
+    padding-bottom:1em;
+    padding-left:2.5em;
+    padding-right:2.5em;
+    width: 25%;
+}
+
+.sketchbook-entry figure {
+    width: 100%;
 }
 
 .notebook-preview {
