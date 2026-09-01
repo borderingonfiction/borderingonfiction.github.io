@@ -164,6 +164,11 @@ nav a {
     width: 25%;
 }
 
+.sketchbook-title {
+    width: 100%;
+
+}
+
 .sketchbook-entry figure {
     width: 100%;
 }
@@ -176,12 +181,15 @@ nav a {
 
 }
 
-
-/* images i guess */
-.sketch-preview {
-    max-width: 100%;
-    width: fit-content;
+.sketchbook title h3 {
+    font-weight:bold;
+    font-size: 1.5em;
 }
+
+.sketchbook-title h4 {
+    color: #a8a8a8;
+}
+
 
 
 /* hidden */
