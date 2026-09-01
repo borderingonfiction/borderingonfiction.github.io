@@ -24,10 +24,15 @@ p {
     font-family: 'Karla', sans-serif; 
 }
 
+a {
+    font-style: normal;
+}
+
 
 img, figure {
     padding: none;
     margin: 0%;
+    max-width: 100%;
 }
 
 button {
@@ -58,7 +63,9 @@ button {
 nav ul li {
     list-style: none;
     font-family: 'Cormorant Garamond', serif;
+    color: #a8a8a8;
 }
+
 
 
 
@@ -111,6 +118,10 @@ nav ul li {
     align-content: left;
     width: fit-content;
 
+}
+
+.sketchbook-title {
+    flex: auto;
 }
 
 /* images i guess */
