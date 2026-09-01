@@ -38,7 +38,7 @@ img, figure {
 button {
     border: none;
     background-color:rgba(0, 0, 0, 0);
-    align-self: start;
+    color: #fff;
 }
 
 
@@ -57,6 +57,7 @@ button {
 .main-menu-full {
     display: flex;
     flex-direction: column;
+    align-self: right;
 }
 
 
@@ -66,6 +67,10 @@ nav ul li {
     color: #a8a8a8;
 }
 
+.nav-columns {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
