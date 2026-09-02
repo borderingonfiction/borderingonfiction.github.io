@@ -143,7 +143,9 @@ nav a {
 
 .page-title {
     display: flex;
+    width:100%;
     justify-content: center;
+    margin-bottom:2em;
 }
 
 /* sketchbook */
@@ -219,6 +221,11 @@ nav a {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.gallery-sk figure {
+    width: 85%;
+    justify-self: center;
+}
+
 /* journal */
 .notebook-preview {
     display: flex;
@@ -233,7 +240,7 @@ h1 a:visited {
 }
 
 /* hover */
-button:hover, a:hover {
+button:hover, a:hover, nav a:hover, h3 a:hover {
     color: #b90000;
 }
 
