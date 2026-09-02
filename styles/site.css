@@ -66,6 +66,10 @@ button {
     margin-top: 0.2em;
 }
 
+.fa-moon {
+    vertical-align: 0;
+}
+
 
 
 
@@ -223,7 +227,7 @@ nav a {
 
 .gallery-sk figure {
     width: 85%;
-    justify-self: center;
+    justify-self: center;   
 }
 
 /* journal */
