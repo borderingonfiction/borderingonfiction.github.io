@@ -4,7 +4,15 @@
 
 $(document).ready(function() {
     $( '#navMenuButton' ).on('click', function() {
-        $('#navMenu').slideToggle(),
-        $('#navMenuButton').css('transform', 'rotate(180deg)');   
+        $('#navMenu').slideToggle()
+        
         });
     });
+
+$(document).ready(function() {
+    $( '#navMenuButton' ).on('click', function() {
+        ('#navMenuButton').css('transform', 'rotate(180deg)');  
+        
+        });
+    });
+    $ 
