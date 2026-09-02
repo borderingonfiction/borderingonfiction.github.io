@@ -39,8 +39,12 @@ a {
     text-decoration: none ;
 }
 
-a:visited {
+a:visited, h3 a:visited {
     color: #fff;
+}
+
+nav a:visited {
+    color: #a8a8a8;
 }
 
 
@@ -203,6 +207,7 @@ nav a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 
