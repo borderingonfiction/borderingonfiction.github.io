@@ -11,8 +11,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $( '#navMenuButton' ).on('click', function() {
-        ('#navMenuButton').css('transform', 'rotate(180deg)');  
+        $('#navMenuButton').css('transform', 'rotate(180deg)');  
         
         });
     });
-    $ 
