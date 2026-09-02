@@ -9,8 +9,5 @@ $(document).ready(function () {
     });
 });
 
-$(document).on('click', '#navMenuButton', function () {
-    $('#navMenuButton').css('transform', 'rotate(180deg)');
 
-});
     

@@ -197,6 +197,21 @@ nav a {
 
 }
 
+h1:visited {
+    color:#b90000;
+}
+
+/* hover */
+button:hover, a:hover {
+    color: #b90000;
+}
+
+h1:hover {
+    color:#a8a8a8;
+}
+
+
+
 /* hidden */
 .hidden {
     display: none;
