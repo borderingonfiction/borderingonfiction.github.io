@@ -199,6 +199,10 @@ nav a {
     width: 100%;
 }
 
+.three-column figure {
+    width: 50%;
+}
+
 /* columning gridding */
 
 .two-column {
