@@ -104,6 +104,11 @@ nav a {
     font-size: 1.2em;
 }
 
+.nav-button {
+    color: #a8a8a8;
+    font-size: 1.2em;
+}
+
 .nav-columns {
     width: 15%;
     display: flex;
