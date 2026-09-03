@@ -155,6 +155,7 @@ nav a {
     display:flex;
     flex-direction:column;
     justify-content:center;
+    align-items:center;
 }
 
 .page-title {
@@ -173,7 +174,7 @@ nav a {
     width: 100%;
 }
 
-.sketchbook-preview:hover {
+.sketch-preview:hover {
     opacity: 75%;
 }
 
@@ -239,6 +240,8 @@ nav a {
 .gallery {
     display: grid;
     align-items:center;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .gallery-three {
@@ -247,6 +250,7 @@ nav a {
 
 .gallery-two {
     grid-template-columns: repeat(2,1fr);
+    width: 66%;
 }
 
 .gallery-three figure {
