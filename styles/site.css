@@ -176,7 +176,7 @@ nav a {
 }
 
 .sketch-preview:hover {
-    opacity: 75%;
+    scale:102%;
 }
 
 .sketchbook-entry {
