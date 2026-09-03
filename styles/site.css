@@ -39,9 +39,6 @@ a {
     text-decoration: none ;
 }
 
-a:visited, h3 a:visited {
-    color: #fff;
-}
 
 nav a:visited {
     color: #a8a8a8;
@@ -243,9 +240,6 @@ nav a {
 
 }
 
-h1 a:visited {
-    color:#b90000;
-}
 
 /* hover */
 button:hover, a:hover, nav a:hover, h3 a:hover {
