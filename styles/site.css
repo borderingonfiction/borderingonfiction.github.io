@@ -117,6 +117,10 @@ nav a {
     color: #a8a8a8;
 }
 
+.home-img {
+    width: 60%;
+}
+
 
 /* alignment */
 
@@ -222,8 +226,12 @@ nav a {
     align-items:center;
 }
 
-.gallery-sk {
+.gallery-three {
     grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery-two {
+    grid-template-columns: repeat(2,1fr);
 }
 
 .gallery-sk figure {
