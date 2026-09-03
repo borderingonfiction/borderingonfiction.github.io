@@ -3,11 +3,18 @@
 // nav bar toggling etc
 
 $(document).ready(function () {
-    $('#navMenuButton').on('click', function () {
+    $('#navMenuPlus').on('click', function () {
         $('#navMenu').slideToggle()
+        $('#navMenuMinus').toggle()
+        $('#navMenuPlus').toggle()
+    });
 
+    $('#navMenuMinus').on('click', function () {
+        $('#navMenu').slideToggle()
+        $('#navMenuMinus').toggle()
+        $('#navMenuPlus').toggle()
     });
 });
 
 
-    
+
