@@ -66,7 +66,7 @@ button {
     font-size: medium;
     font-weight: bold;
     align-self:start;
-    width: 1.5em;
+    width: fit-content;
     margin:0;
 
 }
@@ -104,11 +104,6 @@ nav a {
     font-size: 1.2em;
 }
 
-.nav-button {
-    color: #a8a8a8;
-    font-size: 1.2em;
-    font-family: 'Cormorant Garamond', serif;
-}
 
 .nav-columns {
     width: 15%;
