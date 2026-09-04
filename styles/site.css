@@ -96,6 +96,7 @@ button {
 nav ul li {
     list-style: none;
     font-family: 'Cormorant Garamond', serif;
+    color: #a8a8a8;
 }
 
 nav a {
@@ -129,6 +130,20 @@ nav a {
 .home-img {
     width: 60%;
 }
+
+.nav-columns button {
+    width: 1.35em;
+}
+
+#plusText, #minusText {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#plusText {
+    font-size:1.1em;
+
+}
+
 
 
 /* alignment */
@@ -221,6 +236,14 @@ nav a {
     width: 50%;
 }
 
+.sketchbook-nav {
+    margin: 1em;
+}
+
+.sketchbook-nav p, .sketchbook-nav a {
+    color: #a8a8a8;
+}
+
 /* columning gridding */
 
 .two-column {
@@ -243,6 +266,7 @@ nav a {
     align-items:center;
     margin-left:auto;
     margin-right:auto;
+    justify-items: center;
 }
 
 .gallery-three {
@@ -268,15 +292,27 @@ nav a {
     display: flex;
     flex-direction: column;
     align-content: left;
-    width: 25%;
+    width: 80%;
 
 }
 
 .notebook-grid {
-    grid-template-columns: repeat(4, 1fr)
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1.2em;
+    margin-top: 1.2em;
+    align-items: end;
 }
 
 .grey {
+    color: #a8a8a8;
+}
+
+.entry-details {
+    justify-content: start;
+}
+
+.n-date {
+    margin-right: .5em;
     color: #a8a8a8;
 }
 
@@ -289,6 +325,14 @@ nav a {
 /* collection */
 .collection-grid {
     grid-template-columns:repeat(4,1fr);
+    column-gap: 1.25em;
+    row-gap: 1.25em;
+    align-items: end;
+    justify-items: center;
+}
+
+.collection-item {
+    max-width: 95%;
 }
 
 /* hover */
@@ -300,13 +344,6 @@ h1 a:hover {
     color:#a8a8a8;
 }
 
-.nav-columns button {
-    width: 1.35em;
-}
-
-#plusText {
-    font-size:1.1em;
-}
 
 
 /* hidden */
