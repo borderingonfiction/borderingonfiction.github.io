@@ -16,6 +16,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: start;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div {
@@ -208,6 +210,10 @@ nav a {
     width: 25%;
 }
 
+.skbk {
+    margin-top: 3em;
+}
+
 .sk-vert {
     width: 20%;
 }
@@ -336,6 +342,7 @@ nav a {
     margin-right: auto;
     justify-content: center;
     align-items: end;
+    margin-right:1.5em;
 }
 
 /* photo */
@@ -344,6 +351,7 @@ nav a {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1.25em;
     margin-top: 1.5em;
+    align-items: end;
 }
 
 .photo-grid figure {
@@ -358,10 +366,11 @@ nav a {
     row-gap: 1.25em;
     align-items: end;
     justify-items: center;
+    margin-top: 1.5em;
 }
 
 .collection-item {
-    max-width: 95%;
+    max-width: 90%;
 }
 
 /* hover */
