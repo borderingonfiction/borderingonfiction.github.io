@@ -345,6 +345,10 @@ nav a {
     margin-right:1.5em;
 }
 
+.j-entry {
+    width: 65%;
+}
+
 /* photo */
 
 .photo-grid {
