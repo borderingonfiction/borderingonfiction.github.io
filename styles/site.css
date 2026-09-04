@@ -264,18 +264,32 @@ nav a {
 }
 
 /* journal */
-.notebook-preview {
+.notebook-entry {
     display: flex;
     flex-direction: column;
     align-content: left;
-    width: fit-content;
+    width: 25%;
 
+}
+
+.notebook-grid {
+    grid-template-columns: repeat(4, 1fr)
 }
 
 .grey {
     color: #a8a8a8;
 }
 
+/* photo */
+
+.collection-grid {
+    grid-template-columns: repeat(3, 1fr)
+}
+
+/* collection */
+.collection-grid {
+    grid-template-columns:repeat(4,1fr);
+}
 
 /* hover */
 button:hover, a:hover, nav a:hover, h3 a:hover {
@@ -287,7 +301,7 @@ h1 a:hover {
 }
 
 .nav-columns button {
-    width: 1.2em;
+    width: 1.35em;
 }
 
 #plusText {
