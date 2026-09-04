@@ -140,8 +140,11 @@ nav a {
 }
 
 #plusText {
-    font-size:1.1em;
+    font-size:1.2em;
+}
 
+#minusText {
+    font-size: .9em;
 }
 
 
@@ -245,6 +248,8 @@ nav a {
 .sketchbook-nav p, .sketchbook-nav a {
     color: #a8a8a8;
     font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2em;
+    text-decoration: underline;
 }
 
 /* columning gridding */
@@ -319,11 +324,28 @@ nav a {
     color: #a8a8a8;
 }
 
+.journal-pics {
+    display: flex;
+    flex: 25%;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: end;
+}
+
 /* photo */
 
-.collection-grid {
-    grid-template-columns: repeat(3, 1fr)
+.photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.25em;
+    margin-top: 1.5em;
 }
+
+.photo-grid figure {
+    max-width: 95%;
+}
+
 
 /* collection */
 .collection-grid {
