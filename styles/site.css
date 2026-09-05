@@ -74,11 +74,16 @@ button {
 
 }
 
-.fa-moon {
-    vertical-align: 0;
+
+
+/* hover */
+button:hover, a:hover, nav a:hover, h3 a:hover {
+    color: #b90000;
 }
 
-
+h1 a:hover {
+    color:#a8a8a8;
+}
 
 
 /* header/navbar */
@@ -147,7 +152,7 @@ nav a {
 }
 
 #minusText {
-    font-size: .9em;
+    font-size: .8em;
 }
 
 
@@ -405,14 +410,6 @@ nav a {
     max-width: 90%;
 }
 
-/* hover */
-button:hover, a:hover, nav a:hover, h3 a:hover {
-    color: #b90000;
-}
-
-h1 a:hover {
-    color:#a8a8a8;
-}
 
 
 
