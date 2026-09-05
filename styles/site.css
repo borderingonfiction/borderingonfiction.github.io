@@ -329,7 +329,7 @@ nav a {
     justify-content: start;
 }
 
-.n-date {
+.n-date, .n-date a {
     margin-right: .5em;
     color: #a8a8a8;
 }
@@ -342,11 +342,27 @@ nav a {
     margin-right: auto;
     justify-content: center;
     align-items: end;
-    margin-right:1.5em;
+    margin-bottom:1.5em;
+    margin-top: 1.5em;
+    opacity: 75%;
 }
 
 .j-entry {
-    width: 65%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+}
+
+.j-entry p {
+    margin-top: 1em;
+}
+
+.j-nav {
+    color: #a8a8a8;
+    margin-left:auto;
+    margin-right:auto;
+    width:fit-content;
 }
 
 /* photo */
