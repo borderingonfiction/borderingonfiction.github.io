@@ -77,12 +77,17 @@ button {
 
 
 /* hover */
-button:hover, a:hover, nav a:hover, h3 a:hover {
+button:hover, a:hover, nav a:hover, h3 a:hover, .entry-details a:hover {
     color: #b90000;
 }
 
 h1 a:hover {
     color:#a8a8a8;
+}
+
+.j-nav a:hover {
+    color: #555555;
+    text-decoration: underline;
 }
 
 
@@ -341,6 +346,7 @@ nav a {
     margin-right: .5em;
     color: #a8a8a8;
 }
+
 
 .journal-pics {
     display: flex;

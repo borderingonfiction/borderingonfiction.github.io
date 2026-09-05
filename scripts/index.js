@@ -12,13 +12,15 @@ $(document).ready(function () {
     $('#navMenuMinus').on('click', function () {
         $('#navMenu').slideToggle()
         $('#navMenuMinus').toggle()
-        $('#navMenuPlus').toggle() 
+        $('#navMenuPlus').toggle()
     });
+
+    $('#hideJournals').on('click', function () {
+        $('.journal-pics').slideToggle()
+    });
+
 });
 
-$('#hideJournals').on('click', function () {
-    $('journal-pics').slideToggle()
-});
 
 
 
