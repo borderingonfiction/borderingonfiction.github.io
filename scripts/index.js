@@ -16,5 +16,9 @@ $(document).ready(function () {
     });
 });
 
+$('#hideJournals').on('click', function () {
+    $('journal-pics').slideToggle()
+});
+
 
 

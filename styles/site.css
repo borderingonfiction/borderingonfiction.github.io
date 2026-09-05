@@ -360,6 +360,7 @@ nav a {
     margin-left: auto;
     margin-right: auto;
     margin-top:10%;
+    text-align:justify;
 }
 
 .j-entry p {
@@ -373,13 +374,15 @@ nav a {
     margin-top: 1.5em;
 }
 
-.j-nav a:hover {
-    color: #555555;
-}
+
 
 .j-nav p, 
 .j-nav a:visited {
     color: #a8a8a8;
+}
+
+.j-nav a:hover {
+    color: #555555;
 }
 
 /* photo */
