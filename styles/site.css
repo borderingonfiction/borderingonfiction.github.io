@@ -420,7 +420,13 @@ nav a {
 }
 
 
-
+/* about */
+.about {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /* hidden */
 .hidden {
