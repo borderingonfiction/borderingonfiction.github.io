@@ -375,6 +375,16 @@ nav a {
     color: #a8a8a8;
 }
 
+#hideButton {
+    font-style:normal;
+}
+
+.page-description {
+    width:95%;
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+}
 
 /* photo */
 
