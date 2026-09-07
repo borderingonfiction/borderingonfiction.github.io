@@ -427,6 +427,13 @@ nav a {
     margin-bottom: 1.25em;
 }
 
+/* guestbook */
+.form-section {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
 /* hidden */
 .hidden {
     display: none;
