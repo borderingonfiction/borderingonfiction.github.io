@@ -317,7 +317,7 @@ nav a {
     grid-template-columns: repeat(4, 1fr);
     row-gap: 1.2em;
     margin-top: 1.2em;
-    align-items: end;
+    align-items: start;
 }
 
 .grey {
@@ -392,7 +392,7 @@ nav a {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1.25em;
     margin-top: 1.5em;
-    align-items: end;
+    align-items: start;
 }
 
 .photo-grid figure {
@@ -432,6 +432,7 @@ nav a {
     display: flex;
     flex-direction: column;
     width: 65%;
+    justify-content: left;
 }
 
 /* hidden */
