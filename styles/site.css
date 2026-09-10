@@ -401,6 +401,7 @@ nav a {
     justify-content: center;
     align-items: center;
     margin-top: -1.75em;
+    margin-bottom: 1em;
 }
 
 /* photo */
@@ -499,7 +500,7 @@ h1 a:hover {
     }
     header {
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         height: auto;
     }
 
@@ -507,11 +508,72 @@ h1 a:hover {
         width: 50%;
     }
 
-    .two-column {
-        
+    .sketchbook-preview {
+        align-items: center;
+    }
+
+    .sketchbook-entry {
+        width: 50%;
+    }
+
+    .notebook-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .notebook-entry {
+        width: 95%;
+    }
+
+    .j-entry {
+        width: 50%;
+    }
+}
+
+@media (max-width:900px) {
+    .photo-grid {
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 1.5em;
+        width: 80%;
     }
 }
 
 @media (max-width: 700px) {
+    .sketchbook-entry {
+        width: 75%;
+    }
     
+    .page-description {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+
+    .page-title {
+        font-size: 1.5em;
+        margin-top: 1em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .notebook-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .notebook-entry {
+        width: 80%;
+    }
+
+    .j-entry {
+        width: 75%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .about {
+        width: 80%;
+    }
 }
