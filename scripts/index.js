@@ -19,8 +19,15 @@ $(document).ready(function () {
         $('.journal-pics').slideToggle()
     });
 
+
+
+
 });
 
 
 
+// mobile styling maybe?
+if ($(window).width() < 900) {
+        $('#navMenu').hide();
+}
 

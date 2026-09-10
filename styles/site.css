@@ -500,8 +500,9 @@ h1 a:hover {
     }
     header {
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         height: auto;
+        padding-left: 3%;
     }
 
     .nav-columns {
@@ -526,6 +527,10 @@ h1 a:hover {
 
     .j-entry {
         width: 50%;
+    }
+
+    .page-description-photo {
+        margin-top: 1em;
     }
 }
 
