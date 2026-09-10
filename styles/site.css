@@ -492,6 +492,7 @@ h1 a:hover {
     .nav-columns {
         width: 10%;
     }
+
 }
 
 @media (max-width:1000px) {
@@ -500,7 +501,7 @@ h1 a:hover {
     }
     header {
         flex-direction: column;
-        align-items: center;
+        align-items: right;
         height: auto;
         padding-left: 3%;
     }
@@ -532,6 +533,7 @@ h1 a:hover {
     .page-description-photo {
         margin-top: 1em;
     }
+
 }
 
 @media (max-width:900px) {
@@ -539,6 +541,10 @@ h1 a:hover {
         grid-template-columns: repeat(1,1fr);
         row-gap: 1.5em;
         width: 80%;
+    }
+
+    .gallery-three {
+        grid-template-columns: repeat(2,fr)
     }
 }
 
@@ -560,7 +566,7 @@ h1 a:hover {
     }
 
     p {
-        font-size: 1.1em;
+        font-size: .95em;
     }
 
     .notebook-grid {
@@ -573,6 +579,11 @@ h1 a:hover {
 
     .j-entry {
         width: 75%;
+    }
+
+    .gallery-three,
+    .gallery-two {
+        grid-template-columns: repeat(1,1fr)
     }
 
 }
