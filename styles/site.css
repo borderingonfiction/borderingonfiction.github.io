@@ -594,7 +594,7 @@ h1 a:hover {
     }
 
     .collection-grid {
-        grid-template-columns: repeat(1, fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
