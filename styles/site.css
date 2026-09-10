@@ -481,3 +481,37 @@ h1 a:hover {
 .j-nav a:hover {
     color: #555555;
 }
+
+
+/* adjusting for widths */
+
+/* man this fucking navbar */
+
+@media (max-width: 1300px) {
+    .nav-columns {
+        width: 10%;
+    }
+}
+
+@media (max-width:1000px) {
+    .sketchbook-preview {
+        flex-direction: column;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .nav-columns {
+        width: 50%;
+    }
+
+    .two-column {
+        
+    }
+}
+
+@media (max-width: 700px) {
+    
+}
