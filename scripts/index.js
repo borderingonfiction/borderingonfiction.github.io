@@ -26,8 +26,3 @@ $(document).ready(function () {
 
 
 
-// mobile styling maybe?
-if ($(window).width() < 900) {
-        $('#navMenu').hide();
-}
-
