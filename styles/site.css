@@ -499,6 +499,7 @@ h1 a:hover {
     .sketchbook-preview {
         flex-direction: column;
     }
+
     header {
         flex-direction: column;
         align-items: right;
@@ -538,21 +539,23 @@ h1 a:hover {
 
 @media (max-width:900px) {
     .photo-grid {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         row-gap: 1.5em;
         width: 80%;
     }
 
-    .gallery-three {
-        grid-template-columns: repeat(2,fr)
+    .gallery-three,
+    .collection-grid {
+        grid-template-columns: repeat(2, fr);
     }
+
 }
 
 @media (max-width: 700px) {
     .sketchbook-entry {
         width: 75%;
     }
-    
+
     .page-description {
         text-align: center;
         margin-left: auto;
@@ -583,7 +586,15 @@ h1 a:hover {
 
     .gallery-three,
     .gallery-two {
-        grid-template-columns: repeat(1,1fr)
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gallery-two {
+        width: 90%;
+    }
+
+    .collection-grid {
+        grid-template-columns: repeat(1, fr);
     }
 
 }
