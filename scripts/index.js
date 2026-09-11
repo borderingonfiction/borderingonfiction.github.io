@@ -20,9 +20,19 @@ $(document).ready(function () {
     });
 
 
-
-
 });
 
+$('#userForm').submit(function (e) {
+    e.preventDefault();
+    const formDataArray = $(this).serializeArray();
+    console.log(formDataArray);
+    // [ {name: "name", value: "John Doe"}, {name: "email", value: "john@example.com"}, ... ]
 
+    // Convert to object
+    const formDataObj = {};
+    formDataArray.forEach(item => {
+        formDataObj[item.name] = item.value;
+    });
+    console.log(formDataObj); // { name: "John Doe", ... }
+});
 
