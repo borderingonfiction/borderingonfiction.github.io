@@ -453,7 +453,14 @@ nav a {
 }
 
 .form {
-    width: 65%;
+    width: 125%;
+}
+
+.form button {
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline;
+    margin-top: .5em;
 }
 
 /* hidden */
