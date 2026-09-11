@@ -22,5 +22,9 @@ $(document).ready(function () {
 
 });
 
+var form = $('#guestbook').ajaxSubmit({ /* options */ });
+var xhr = form.data('jqxhr');
 
+xhr.done(function () {
+});
 
