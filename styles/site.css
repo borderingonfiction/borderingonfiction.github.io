@@ -203,6 +203,7 @@ nav a {
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    margin-bottom: 1.5em;
 }
 
 .sketch-preview:hover {
